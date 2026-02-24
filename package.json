@@ -23,6 +23,7 @@
     "figlet": "^1.9.3",
     "gradient-string": "^3.0.0",
     "js-yaml": "^4.1.0",
+    "node-fetch": "^3.3.2",
     "zx": "^8.0.0"
   },
   "devDependencies": {

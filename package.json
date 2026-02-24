@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "build": "tsc",
+    "build": "node init && tsc",
     "temporal:server": "docker compose -f docker/docker-compose.temporal.yml up temporal -d",
     "temporal:server:stop": "docker compose -f docker/docker-compose.temporal.yml down",
     "temporal:worker": "node dist/temporal/worker.js",
@@ -23,6 +23,7 @@
     "figlet": "^1.9.3",
     "gradient-string": "^3.0.0",
     "js-yaml": "^4.1.0",
+    "node-fetch": "^3.3.2",
     "zx": "^8.0.0"
   },
   "devDependencies": {
